@@ -48,3 +48,6 @@ exports.dev = series(
     parallel(styles, html, img),
     parallel(watchFiles, syncFiles)
 );
+
+
+exports.build = parallel(styles, html, img);
