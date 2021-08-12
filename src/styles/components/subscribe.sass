@@ -1,0 +1,78 @@
+.subscribe
+    max-width: $breakpoint-desktop
+    width: calc(100vw - 80px)
+    border-radius: 10px
+    border: 15px solid white
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08)
+    background: $light-blue
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    min-height: 290px
+    margin: 120px auto -145px
+    z-index: 2
+    &__about 
+        max-width: 450px
+        margin: auto
+        padding: 40px 20px
+    &__title
+        color: $black
+        font-family: 'Lato', sans-serif
+        font-weight: 800
+        font-size: $font-subscribtion
+        line-height: 1.5em
+    &__subtitle 
+        color: $black
+        font-family: 'Roboto', sans-serif
+        font-weight: 400
+        font-size: $font-small
+        line-height: 1.875em
+        padding-top: 32px
+    &__form 
+        max-width: 481px
+        width: 100%
+        margin: auto
+        padding: 40px 20px
+    .subscribe-form
+        display: flex
+        flex-direction: row
+        flex-wrap: norwap
+        border-radius: 10px
+        &__input
+            max-width: 400px
+            width: 100%
+            height: 76px
+            border: none
+            border-radius: 5px 0px 0px 5px
+            padding: 16px
+            font-family: 'Roboto', sans-serif
+            font-weight: 300
+            font-size: $font-small
+            line-height: 1.875em
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.04)
+            &:focus
+                outline: none
+                border: 2px solid $primary
+        &__submit
+            max-width: 81px
+            width: 100%
+            height: 76px
+            border: none
+            border-radius: 0px 5px 5px 0px
+            background: $primary
+            background-image: url('../img/assets/telegram.svg')
+            background-repeat: no-repeat
+            background-position: 50% 50%
+            background-size: 40% 40%
+            transition: all 200ms 
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.04)
+            &:hover
+                opacity: 0.8
+                background-size: 45% 45%
+            &:active
+                opacity: 0.7
+
+
+

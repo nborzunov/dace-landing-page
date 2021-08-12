@@ -1,0 +1,64 @@
+.about
+    max-width: $breakpoint-desktop
+    width: calc(100vw - 80px)
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    margin: 120px auto 0
+    &__photo
+        max-width: 470px
+        width: calc(100vw - 80px)
+        margin: auto
+        height: auto
+
+    &__section
+        max-width: 570px
+        width: calc(100vw - 80px)
+        margin: auto
+        display: flex
+        flex-direction: column
+        padding-top: 40px
+    &__desc
+        color: $primary
+        font-family: 'Roboto', sans-serif
+        font-weight: 400
+        font-size: $font-description
+        line-height: 1.5em
+    &__title
+        color: $black
+        font-family: 'Lato', sans-serif
+        font-weight: 800
+        font-size: $font-large
+        line-height: 1.2em
+    &__subtitle
+        color: $gray-semi-light
+        font-family: 'Roboto', sans-serif
+        font-weight: 400
+        font-size: $font-small
+        line-height: 1.875em
+        padding-top: 30px
+    &-advantages
+        list-style-type: none
+        padding: 30px
+        &__item
+            color: $gray
+            font-family: 'Roboto', sans-serif
+            font-weight: 400
+            font-size: $font-small
+            line-height: 1.875em
+            position: relative
+            margin: 15px 0
+            &::before
+                content: ''
+                background: url('../img/assets/checkbox.svg') no-repeat
+                background-position: 50% 50%
+                position: absolute
+                left: -45px
+                top: -5px
+                width: 30px
+                height: 30px
+
+
+
+    

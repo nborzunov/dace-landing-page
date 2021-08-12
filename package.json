@@ -1,0 +1,20 @@
+{
+  "name": "dataart-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp dev"
+  },
+  "author": "Nikolay Borzunov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "*",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "*"
+  }
+}
